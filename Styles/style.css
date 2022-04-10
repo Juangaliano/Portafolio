@@ -120,11 +120,13 @@ h2 {
 
 /*Sobre mi*/
 .sobre-mi {
+  height: 45rem;
   max-width: 100vw;
   color: #161c24;
   background-color: darkgrey;
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-size: 1.2rem;
 }
 .caja-sobremi {
@@ -200,21 +202,34 @@ h2 {
 }
 
 
-@media (max-width: 480px) {
-  .items {
-    display: none;
-  }
-
-  .header {
-    align-items: center;
-    justify-content: center;
-    color: aqua;
-  }
-  .titulo {
-    align-items: center;
-    justify-content: center;
-  }
-  .imagen {
-    display: none;
-  }
+.servicios{
+  background-color: darkgrey;
+  max-width: 100vw;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
 }
+
+.servicios-caja{
+  width: auto;
+  margin: 0rem 2rem;
+  background-color: #161c24;
+}
+
+.servicios-titulo{
+  padding: 2rem;
+  text-align: justify;
+}
+
+.servicios-titulo h2{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
