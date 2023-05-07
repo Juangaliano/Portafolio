@@ -8,14 +8,14 @@ html {
 
 
 
-.title-section h3,
-.title-section p {
+.title-section .title,
+.title-section .parrafo {
   text-align: start;
   margin: 0px;
   padding: 0px;
 }
 
-.title-section p {
+.title-section .parrafo {
   margin-top: 10px;
   font-size: 1.3rem;
 }

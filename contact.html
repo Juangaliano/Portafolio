@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juan Galiano</title>
-    <link rel="icon" type="image" href="img/developer.ico"/>
+    <link rel="icon" type="image" href="img/developer.ico" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/projects.css">
 
 </head>
 
@@ -23,11 +25,47 @@
             <li><a href="contact.html" class="active">Contact</a> </li>
         </ul>
     </nav>
-    
-    <section>
-        <a href="https://www.linkedin.com/in/juangalianodesarrolladorweb/" target="_blank"><img src="img/linkedin.svg" alt="" class="linkeind-flotante"></a>
-        
+    <section class="contenedor">
+        <div class="title-section">
+            <h3 class="title">Contact</h3>
+            <p class="parrafo">Selection of contact.</p>
+        </div>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactame completando los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label for="">Name</label>
+                        <input class="input-text" type="text" placeholder="Name">
+                    </div>
+
+                    <div class="campo">
+                        <label>email</label>
+                        <input class="input-text" type="email" placeholder="Email">
+                    </div>
+
+                    <div class="campo">
+                        <label>Message</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10" style="resize: none;"></textarea>
+                    </div>
+                </div>
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+
+            </fieldset>
+        </form>
     </section>
+
+    <section>
+        <a href="https://www.linkedin.com/in/juangalianodesarrolladorweb/" target="_blank"><img src="img/linkedin.svg"
+                alt="" class="linkeind-flotante"></a>
+
+    </section>
+    <footer>
+        <p>© 2023 Juan Galiano / All rights reserved / Contact me at <a href="" class="link-email">
+                galianojuan@gmail.com</a></p>
+    </footer>
 </body>
 
-</html> 
+</html>
