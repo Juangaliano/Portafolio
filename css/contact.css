@@ -13,20 +13,21 @@ body {
 
 .formulario {
   border-color: black;
-  width: min(60rem, 100%);
-  margin: 0 auto;
+  width: min(80rem, 100%);
+  margin: 40px auto;
   padding: 2rem;
   border-radius: 1rem;
 }
 label {
   font-weight: normal;
+  display: none;
 }
 input {
   color: black;
 }
 
 .contenedor-campos {
-    margin-top: 20px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto 15rem;
@@ -49,8 +50,7 @@ input {
   color: black;
 }
 
-
 .alinear-derecha {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
