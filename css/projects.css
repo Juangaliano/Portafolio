@@ -1,12 +1,11 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
-
-
 
 .title-section .title,
 .title-section .parrafo {
@@ -19,7 +18,7 @@ html {
   margin-top: 10px;
   font-size: 1.3rem;
 }
-.projects{
+.projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,9 +28,11 @@ html {
   margin: 20px 0px;
 }
 
+
 .card-project {
   width: 49%;
   height: 300px;
+  cursor: pointer;
 }
 
 .img-project {
@@ -43,5 +44,3 @@ html {
 .title-project {
   display: none;
 }
-
-
