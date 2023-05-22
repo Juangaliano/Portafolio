@@ -145,8 +145,6 @@ li {
   font-size: 3rem;
 }
 
-
-
 .active {
   color: yellow;
 }
@@ -205,15 +203,17 @@ footer p {
   .cerrar-menu {
     display: block;
     position: inherit;
-    top: 32px;
-    right: 70px;
+    top: 25px;
+    right: 5%;
     cursor: pointer;
   }
-
-  .nav{
+  .navbar {
+    padding: 10px 5%;
+  }
+  .nav {
     opacity: 0;
     visibility: hidden;
-  
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,7 +227,7 @@ footer p {
     padding: 2rem;
   }
 
-  .nav.visible{
+  .nav.visible {
     opacity: 1;
     visibility: visible;
   }
