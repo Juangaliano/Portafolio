@@ -203,7 +203,7 @@ footer p {
   .cerrar-menu {
     display: block;
     position: inherit;
-    top: 25px;
+    top: 30px;
     right: 5%;
     cursor: pointer;
   }
