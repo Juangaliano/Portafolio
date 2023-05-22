@@ -44,3 +44,18 @@ html {
 .title-project {
   display: none;
 }
+
+
+/* Media Query
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    @media (max-width: 750px) {
+      .projects {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px 0px;
+      }
+
+      .card-project {
+        width: 100%;
+      }
+    }

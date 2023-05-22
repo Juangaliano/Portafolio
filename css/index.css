@@ -179,7 +179,8 @@ footer p {
   left: 20px;
 }
 
-
+/* Media Query
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media (max-width: 750px) {
   footer p {
     margin-top: 0px;
