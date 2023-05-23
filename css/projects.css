@@ -33,6 +33,13 @@ html {
   width: 49%;
   height: 300px;
   cursor: pointer;
+  opacity: 0.4;
+  transition: all .3s ease;
+}
+
+.card-project:hover {
+ opacity: 0.9;
+ transform: scale(1.1);
 }
 
 .img-project {
