@@ -148,6 +148,7 @@ li {
   color: #f5f5f5;
   font-size: 3rem;
   background-color: transparent;
+  transition: all 0.3s ease;
 }
 
 .active {
@@ -231,6 +232,7 @@ footer p {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 2rem;
+    transition: all 0.3s ease;
   }
 
   .nav.visible {
