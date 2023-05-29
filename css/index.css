@@ -189,8 +189,8 @@ footer p {
 }
 
 .linkeind-flotante {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   position: fixed;
   bottom: 20px;
   left: 20px;
@@ -249,5 +249,14 @@ footer p {
 
   .home img {
     object-fit: scale-down;
+  }
+
+
+  .linkeind-flotante {
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
   }
 }
