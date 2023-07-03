@@ -41,7 +41,7 @@ html {
   margin: 20px;
 }
 
-.columna img {
+.img-project {
   margin-top: 8px;
   /* vertical-align: middle; */
   width: 100%;
@@ -51,7 +51,7 @@ html {
   object-fit: contain;
 }
 
-.columna img:hover {
+.columna .img-project:hover {
   cursor: pointer;
   filter: grayscale(0%);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
