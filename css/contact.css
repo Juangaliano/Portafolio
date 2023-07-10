@@ -55,13 +55,23 @@ input {
   justify-content: flex-end;
 }
 
+.mensaje-error {
+  text-align: center;
+  width: 100%;
+  color: red;
+  border: solid;
+  margin: 0;
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
 
 @media (max-width: 750px) {
   .formulario {
-    padding:0px;
+    padding: 0px;
     margin: 20px auto;
   }
-  
+
   .contenedor-campos {
     margin-top: 0px;
     display: flex;
