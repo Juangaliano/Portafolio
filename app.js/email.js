@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const inputEmail = document.querySelector("#email");
   const inputMenssage = document.querySelector("#message");
   const formulario = document.querySelector("#formulario");
+  const btnEnviar = document.querySelector('#enviar')
 
   inputName.addEventListener("blur", Validar);
 
@@ -53,4 +54,18 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultado = regex.test(email);
     return resultado;
   }
+
+    btnEnviar.addEventListener("click", function (e) {
+      e.preventDefault();
+      Swal.fire({
+        title: "Success!",
+        text: "Email sent successfully",
+        icon: "success",
+        confirmButtonText: "Ok",
+      });
+    });
+
+
 });
+
+
